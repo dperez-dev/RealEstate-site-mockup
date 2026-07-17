@@ -2,48 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link href="style.css" rel="stylesheet"">
 </head>
 <body>
-    <div class="main-content">
-        <div class="header">
-            <div class="left-side-header">
-                <img src="images/berkshire-hathaway-logo-png-31977.png" id="logo-header-container"">
-            </div>
-            <nav class="header-nav-list">
-                <ul>
-                    <li class="li-header-style"><a>Buy</a></li>
-                    <li class="li-header-style"><a>Rent</a></li>
-                    <li class="li-header-style"><a>Agents</a></li>
-                    <li class="li-header-style"><a>Help</a></li>
-                    <li class="li-header-style"><a>Resources</a></li>
-                </ul>
-            </nav>
+    <div class="header-container container-width">
+        <div class="left-side-header">
+            <img src="images/berkshire-hathaway-logo-png-31977.png" alt="" id="logo-sizing">
+            <h2>BERKSHIRE HATHAWAY</h2>
         </div>
-        
-        <div class="hero">
-            <div id="hero-title">
-                <h1>Discover properties that <br>match your life</h1>
-                <input type="search" id="hero-search-bar" placeholder="Enter address, city, or zip code">
+        <div class="right-side-header">
+            <ul>
+                <li class="li-header-style"><a>Buy</a></li>
+                <li class="li-header-style"><a>Rent</a></li>
+                <li class="li-header-style"><a>Agents</a></li>
+                <li class="li-header-style"><a>Help</a></li>
+                <li class="li-header-style"><a>Resources</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="hero-container">
+        <div class="hero-background-image">
+            <h1>Discover properties that <br>match your life</h1>
+            <input type="search" placeholder="Enter address, city, or zip code">
+        </div>
+    </div>
+    <div class="buyer-testimony container-width">
+        <h1>Buyer's Testimony</h1>
+        <div class="testimony-card-container">
+            <div class="testimony-cards">
+                <p>"Sold our house in six weeks without any hassle. The market insights showed us the right price from day one. Highly recommend."</p>
+                <h4>Sarah M., Atlanta</h4>
+            </div>
+            <div class="testimony-cards">
+                <p>"We found our forever home in just three weeks. The search tools made it so easy to filter by and price." </p>
+                <h4>Sarah M., Atlanta</h4>
+            </div>
+            <div class="testimony-cards">
+                <p>"We downsized and connected with an agent who actually listened. The whole process was smooth from start to closing."</p>
+                <h4>Sarah M., Atlanta</h4>                
             </div>
         </div>
-
-        <div class="Buyer-testimony">
-            <h1 id="buyers-testimony-header">buyers testimony’s</h1>
-            <div class="testimony-cards-container">
-                <div class="testimony-cards">
-                    <p>"Sold our house in six weeks without any hassle. The market insights showed us the right price from day one. Highly recommend."</p>
-                    <h4>Sarah M., Atlanta</h4>
+    </div>
+    <div class="options-container container-width">
+        <h1>What's your next step?</h1>
+        <p>Browse homes with confidence, all listings in one place.</p>
+        <div class="option-card-container">
+            <div class="option-card-header-container">
+                <h1>Buy</h1>
+            </div>
+            <div class="testimony-cards card-spacing">
+                <img src="images/House_PNG_Clip_Art-2146.png" class="buy-card-image-sizing">
+                <p>Find verified listings with confidence. Compare homes, see neighborhood insights, and connect with agents who know your area.</p>
+            </div>
+            <div class="option-card-header-container">
+                <h1>Sell</h1>
+            </div>
+            <div class="testimony-cards card-spacing">
+                <img src="images/pngtree-negotiate-clipart-business-and-business-meetings-cartoon-vector-png-image_6814113.png" class="buy-card-image-sizing"> 
+                <p>Sell with confidence. Reach qualified buyers, get market data, and close faster with our agent network.</p>
+            </div>
+            <div class="option-card-header-container">
+                <h1>Estimate</h1>
+            </div>
+            <div class="testimony-cards card-spacing">
+                <img src="images/a-calculator-icon-on-a-black-background-png-1.png" class="buy-card-image-sizing">
+                <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
+            </div>
+        </div>
+        <div class="benefits-container container-width">
+            <div class="benefit-container-properties">
+                <img src="images/Vector 9.png" class="benefit-image-sizing">
+                <div>
+                    <h1 class="benefit-header-margin">PRICE HISTORY</h1>
+                    <p class="benefit-p-styling">See sale dates and prices from years past.</p>
                 </div>
-                <div class="testimony-cards">
-                    <p>"We found our forever home in just three weeks. <br>The search tools made it so easy to filter by <br> and price." </p>
-                    <h4>Sarah M., Atlanta</h4>
+            </div>
+            <div class="benefit-container-properties">
+                <img src="images/calculator illustration.png" class="benefit-image-sizing">
+                <div>
+                    <h1 class="benefit-header-margin">OUR PROVALUE ESTIMATE</h1>
+                    <p class="benefit-p-styling">Get the most accurate estimate, powered by the same technology used by lenders</p>
                 </div>
-                <di class="testimony-cards">
-                    <p>"We downsized and connected with an agent who actually listened. The whole process was smooth from start to closing."</p>
-                    <h4>Sarah M., Atlanta</h4>                
+            </div>
+            <div class="benefit-container-properties">
+                <img src="images/Bar chart.png" class="benefit-image-sizing">
+                <div>
+                    <h1 class="benefit-header-margin">LOCAL MARKET SNAPSHOTS</h1>
+                    <p class="benefit-p-styling">See sale dates and prices from years past.</p>
+                </div>
+            </div>
+            <div class="benefit-container-properties">
+                <img src="images/Tag.png" class="benefit-image-sizing">
+                <div>
+                    <h1 class="benefit-header-margin">COMPARABLE SALES</h1>
+                    <p class="benefit-p-styling">See what other homes are being sold for in and around your neighborhood.</p>
                 </div>
             </div>
         </div>
