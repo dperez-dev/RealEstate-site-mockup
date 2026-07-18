@@ -126,3 +126,47 @@
         margin-top: 0;
         font-size: 20px;
     }
+
+.featued-listings-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+    .featued-listings-cards-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .featured-listing-claims{
+        display: flex;
+        justify-content: center;
+    }
+    .featured-in-logo-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+.footer-page-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+}
+    .calculator-container{
+
+    }
+    .loan-term-container{
+        display: flex;
+        gap: 20px;
+    }
+        .loan-term-container-style{
+            background-color: #562248;
+            color: white;
+            width: 60px;
+            padding: 5px;
+            border-radius: 5px;
+        }
