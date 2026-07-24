@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link href="style.css" rel="stylesheet"">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
 </head>
 <body>
     <div class="header-container container-width">
@@ -14,11 +17,11 @@
         </div>
         <div class="right-side-header">
             <ul>
-                <li class="li-header-style"><a>Buy</a></li>
-                <li class="li-header-style"><a>Rent</a></li>
-                <li class="li-header-style"><a>Agents</a></li>
-                <li class="li-header-style"><a>Help</a></li>
-                <li class="li-header-style"><a>Resources</a></li>
+                <li class="li-header-style"><a href="https://www.bhhsgeorgia.com/realestate/search">Buy</a></li>
+                <li class="li-header-style"><a href="https://www.bhhsgeorgia.com/homes-for-rent">Rent</a></li>
+                <li class="li-header-style"><a href="https://www.bhhsgeorgia.com/roster/offices">Agents</a></li>
+                <li class="li-header-style"><a href="https://www.bhhsgeorgia.com/Contact/companysite">Help</a></li>
+                <li class="li-header-style"><a href="https://www.bhhsgeorgia.com/blog/">Resources</a></li>
             </ul>
         </div>
     </div>
@@ -34,41 +37,53 @@
         <div class="testimony-card-container">
             <div class="testimony-cards">
                 <p>"Sold our house in six weeks without any hassle. The market insights showed us the right price from day one. Highly recommend."</p>
-                <h4>Sarah M., Atlanta</h4>
+                <div class="testimony-header-margin">
+                    <h4>Sarah M., Atlanta</h4>
+                </div>
             </div>
             <div class="testimony-cards">
                 <p>"We found our forever home in just three weeks. The search tools made it so easy to filter by and price." </p>
-                <h4>Sarah M., Atlanta</h4>
+                <div class="testimony-header-margin">
+                    <h4>Sarah M., Atlanta</h4>
+                </div>
             </div>
             <div class="testimony-cards">
                 <p>"We downsized and connected with an agent who actually listened. The whole process was smooth from start to closing."</p>
-                <h4>Sarah M., Atlanta</h4>                
+                <div class="testimony-header-margin">
+                    <h4>Sarah M., Atlanta</h4>
+                </div>                
             </div>
         </div>
     </div>
     <div class="options-container container-width">
         <h1>What's your next step?</h1>
-        <p>Browse homes with confidence, all listings in one place.</p>
+        <p class="next-step-paragraph">Browse homes with confidence, all listings in one place.</p>
         <div class="option-card-container">
             <div class="option-card-header-container">
                 <h1>Buy</h1>
             </div>
             <div class="testimony-cards card-spacing">
-                <img src="images/House_PNG_Clip_Art-2146.png" class="buy-card-image-sizing">
+                <div>
+                    <img src="images/House_PNG_Clip_Art-2146.png" class="buy-card-image-sizing">
+                </div>
                 <p>Find verified listings with confidence. Compare homes, see neighborhood insights, and connect with agents who know your area.</p>
             </div>
             <div class="option-card-header-container">
                 <h1>Sell</h1>
             </div>
             <div class="testimony-cards card-spacing">
-                <img src="images/pngtree-negotiate-clipart-business-and-business-meetings-cartoon-vector-png-image_6814113.png" class="buy-card-image-sizing"> 
+                <div>
+                    <img src="images/pngtree-negotiate-clipart-business-and-business-meetings-cartoon-vector-png-image_6814113.png" class="buy-card-image-sizing"> 
+                </div>
                 <p>Sell with confidence. Reach qualified buyers, get market data, and close faster with our agent network.</p>
             </div>
             <div class="option-card-header-container">
                 <h1>Estimate</h1>
             </div>
             <div class="testimony-cards card-spacing">
-                <img src="images/a-calculator-icon-on-a-black-background-png-1.png" class="buy-card-image-sizing">
+                <div>
+                    <img src="images/a-calculator-icon-on-a-black-background-png-1.png" class="buy-card-image-sizing">
+                </div>
                 <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
             </div>
         </div>
@@ -105,22 +120,43 @@
     </div>
     <div class="featued-listings-container container-width">
         <h1>Featured Listings</h1>
-        <p>See what just hit the market</p>
+        <p class="next-step-paragraph">See what just hit the market</p>
         <div class="featued-listings-cards-container">
-            <div class="testimony-cards card-spacing">
-                <img src="images/House_PNG_Clip_Art-2146.png" class="buy-card-image-sizing">
-                <p>Find verified listings with confidence. Compare homes, see neighborhood insights, and connect with agents who know your area.</p>
-                <button>view</button>
+            <div class="featured-listing-cards card-spacing">
+                <img src="images/GettyImages-1151832961 2.png" class="featured-listing-card-image-sizing">
+                <div class="featured-listing-paragraph-margins">
+                    <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
+                </div>
+                <div class="featured-card-paragraph-grid">
+                    <p class="view-button-margins">$540,213</p>
+                    <div class="view-button-margins">
+                        <button class="view-button">view</button>
+                    </div>
+                </div>
             </div>
-            <div class="testimony-cards card-spacing">
-                <img src="images/pngtree-negotiate-clipart-business-and-business-meetings-cartoon-vector-png-image_6814113.png" class="buy-card-image-sizing"> 
-                <p>Sell with confidence. Reach qualified buyers, get market data, and close faster with our agent network.</p>
-                <button>view</button>
+            <div class="featured-listing-cards card-spacing">
+                <img src="images/GettyImages-1151832961 2.png" class="featured-listing-card-image-sizing"> 
+                <div class="featured-listing-paragraph-margins">
+                    <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
+                </div>
+                <div classs="featured-card-paragraph-grid">
+                    <p class="view-button-margins">$540,213</p>
+                    <div class="view-button-margins">
+                        <button class="view-button">view</button>
+                    </div>
+                </div>
             </div>
-            <div class="testimony-cards card-spacing">
-                <img src="images/a-calculator-icon-on-a-black-background-png-1.png" class="buy-card-image-sizing">
-                <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
-                <button>view</button>
+            <div class="featured-listing-cards card-spacing">
+                <img src="images/GettyImages-1151832961 2.png" class="featured-listing-card-image-sizing">
+                <div class="featured-listing-paragraph-margins">
+                    <p>See what your home is worth. Get instant  estimates backed by real market data, no hidden fees, no commitment.</p>
+                </div>
+                <div class="featured-card-paragraph-grid">
+                    <p class="view-button-margins">$540,213</p>
+                    <div class="view-button-margins">
+                        <button class="view-button">view</button>
+                    </div>
+                </div>
             </div>
             <h2 class="featured-listing-claims">500,000+ homes annually</h2>
             <h2 class="featured-listing-claims">Over hundreds recommended on google </h2>
@@ -133,41 +169,79 @@
         </div>
     </div>
     <div class="footer-page-container container-width">
-        <h1>Need an Estimate? Use our calculator</h1>
-        <p>Whether you're a first-time buyer navigating down payments, a seller preparing to list, or someone curious about market trends in your area, our team is here to guide you every step of the way. Real estate isn't just about the transaction it's about finding the right fit for your life. From understanding closing costs to exploring neighborhoods, we believe in transparency and putting your needs first.  Have questions about the market? We're always happy to chat.</p>
         <div class="calculator-container">
-            <h3>Home prices</h3>
-            <input type="text">
+            <h1 class="footer-calculator">Need an Estimate?<br> Use our calculator</h1>
             <div>
-                <h3>Down payment</h3>
-                <input type="text">   
-                <input type="text">
-            </div>
-            <div>
-                <h3>Credit score range</h3>
-                <input type="text">
-                <input type="text">
-            </div>
-            <div>
-                <h3>Loan term</h3>
-                <div class="loan-term-container">
-                    <div class="loan-term-container-style">
-                        30 years
+                <h3 class="footer-calculator-header-margins">Home prices</h3>
+                <input type="text" id="home-price-value">
+                <div>
+                    <div class="down-payment-header-container">
+                        <h3 class="footer-calculator-header-margins">Down payment</h3>
+                        <h3 class="footer-calculator-header-margins">Intrest %</h3>
                     </div>
-                    <div class="loan-term-container-style">
-                        20 years
-                    </div>
-                    <div class="loan-term-container-style">
-                        15 years
-                    </div>
-                    <div class="loan-term-container-style">
-                         10 years
+                    <div class="down-payment-header-container">
+                        <input type="text" id="down-payment-value">   
+                        <input type="text" id="intrest-rate-value" class="smaller-text-box">
                     </div>
                 </div>
+            <div>
+                <div>
+
+                </div>
+                <h3 class="footer-calculator-header-margins">Credit score range</h3>
+                <div class="down-payment-header-container">
+                    <select>
+                        <option class="credit-score-value" value="440">(300-579) poor</option>
+                        <option class="credit-score-value" value="625">(580-669) fair</option>
+                        <option class="credit-score-value" value="705">(670-739) good</option>
+                        <option class="credit-score-value" value="770">(740-799) very good</option>
+                        <option class="credit-score-value" value="825">(800-850) execellent</option>
+                    </select>
+                </div>
             </div>
+            <div>
+                <h3 class="footer-calculator-header-margins">Loan term</h3>
+                <div class="loan-term-container">
+                    <button class="loan-term-container-style loan-term-value" data-value="30">
+                        30 years
+                    </button>
+                    <button class="loan-term-container-style loan-term-value" data-value="20">
+                        20 years
+                    </button>
+                    <button class="loan-term-container-style loan-term-value" data-value="15">
+                        15 years
+                    </button>
+                    <button class="loan-term-container-style loan-term-value" data-value="10">
+                         10 years
+                    </button>
+                </div>
+            </div>
+            <h3>Estimated cost</h3>
+            <output id="output-results">
+
+            </output>
         </div>
-        <div>
-            <h2>Have a question shoot us an email</h2>
+        </div>
+        <p id="footer-paragraph">Whether you're a first-time buyer navigating down payments, a seller preparing to list, or someone curious about market trends in your area, our team is here to guide you every step of the way. Real estate isn't just about the transaction it's about finding the right fit for your life. From understanding closing costs to exploring neighborhoods, we believe in transparency and putting your needs first.  Have questions about the market? We're always happy to chat.</p>
+        <div class="email-socialMedia-container">
+            <div>
+                <form>
+                    <h2>Have a question shoot <br>us an email</h2>
+                    <div>
+                        <label>Name</label>
+                        <input type="text">  
+                        <label>Email</label>
+                        <input type="text">
+                        <label>Subject</label>
+                        <input type="text">
+                        <label>Message</label>
+                        <textarea id="message-container"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h2>Follow us on socal media</h2>
+            </div>            
         </div>
     </div>
     <script src="script.js"></script>
